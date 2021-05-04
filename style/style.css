@@ -901,6 +901,7 @@
     width: 100%;
     height: 1342px;
     position: relative;
+    background: rgba(246, 246, 246, 1);
 
 }
 .box-heading__our-pets{
@@ -976,7 +977,7 @@
     margin: 0;
 }
 .navigation{
-    border: 1px solid #000;
+  
     width: 340px;
     height: 52px;
     position: absolute;
@@ -984,4 +985,63 @@
     right: 0;
     bottom:100px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+.button-paginator-1{
+    height: 52px;
+    width: 52px;
+    border-radius: 100px;
+    border: 2px solid rgba(205, 205, 205, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-paginator-2{
+    height: 52px;
+    width: 52px;
+    border-radius: 100px;
+    background: rgba(241, 205, 179, 1);
+    border: 2px solid rgba(241, 205, 179, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-paginator-3{
+    height: 52px;
+    width: 52px;
+    border-radius: 100px;
+    border: 2px solid rgba(241, 205, 179, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-paginator__text-1{
+
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color:  rgba(205, 205, 205, 1);
+
+}
+
+
+.button-paginator__text-2{
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color:  rgba(41, 41, 41, 1);
+
+}
+
+
