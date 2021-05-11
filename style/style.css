@@ -495,6 +495,7 @@
     background: rgba(250, 250, 250, 1);
 }
 
+
 .pets-card:hover {
     cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -1232,12 +1233,45 @@
     .container{
         width: 1182px;
     }
+    .pets__button-right{
+        margin-right: 20px;
+    }
+    .pets__button-left{
+        margin-left: 20px;
+    }
+
 }
 
 @media screen and ( max-width: 1199.98px){
     .container{
         width: 976px;
     }
+    .h2{
+        font-size: 29px;
+        line-height: 30px;
+
+    }
+    .pets__button-right{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .pets__button-left{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .pets-card{
+        width: 236px;
+        margin: 20px;
+    }
+    /*our-pets */
+    .section_our-pets{
+        height: 1716px;
+    }
+    .box-heading__our-pets{
+        height: 12%;
+    }
+
+
 }
 
 @media screen and ( max-width: 991.98px) {
@@ -1697,6 +1731,13 @@
         line-height: 23px;
     }
 
+    .pets{
+        height: 540px;
+    }
+    .box-pets__heading{
+        height: 100px;
+    }
+
     .box-pets__heading-wrapper {
         width: 280px;
     }
@@ -1727,7 +1768,7 @@
     }
 
     .button-primary_m {
-        bottom: -35px;
+        bottom: -11px;
         height: 51px;
         width: 238px;
     }
@@ -1931,7 +1972,7 @@
 
     .pets-card {
         margin: 10px;
-        width: 227px
+        width: 208px;
     }
 
     .navigation {
@@ -1955,9 +1996,10 @@
     }
 
     .pets__button-right {
-        margin-right: 5px;
         height: 50px;
         width: 12px;
+        margin: 0;
+        margin-right: 10px;
     }
 
     .fa, .fas {
@@ -1967,7 +2009,8 @@
     .pets__button-left {
         height: 50px;
         width: 12px;
-        margin-left: 1px;
+        margin: 0;
+        margin-left: 10px;
     }
 
 }
