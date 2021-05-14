@@ -42,10 +42,10 @@
         width: 100%;
     }
     /*our-pets */
-    .section_our-pets{
+    .our-pets{
         height: 1716px;
     }
-    .box-heading__our-pets{
+    .our-pets__heading{
         height: 12%;
     }
 }
@@ -171,11 +171,11 @@
     }
 
     /*our-pets */
-    .cards-container_our-pets {
+    .cards {
         justify-content: center
     }
 
-    .box-heading__our-pets {
+    .our-pets__heading {
         height: 9%;
     }
 
@@ -183,7 +183,7 @@
         margin: 20px;
     }
 
-    .section_our-pets {
+    .our-pets {
         min-height: 2130px;
     }
 
@@ -369,11 +369,11 @@
 
 
     /*our-pets */
-    .section_our-pets {
+    .our-pets {
         min-height: 4087px;
     }
 
-    .box-heading__our-pets {
+    .our-pets__heading {
         height: 4%;
     }
 
@@ -737,17 +737,17 @@
     /*.our-pets*/
 
 
-    .box-heading__our-pet-wrapper {
+    .our-pets__heading {
         width: 280px;
         height: 79px;
         top: 40px;
     }
 
-    .box-heading__our-pets {
+  /*  .box-our-pets__heading {
         height: 3%;
-    }
+    }*/
 
-    .section_our-pets {
+    .our-pets {
         min-height: 3603px
     }
 
