@@ -2,15 +2,16 @@
     .container{
         width: 1182px;
     }
-    .pets__button-right{
+    .pets-button-right{
         margin-right: 20px;
     }
     .pets-button-left{
         margin-left: 20px;
     }
-
+    .footer__puppy{
+        margin-top: 4%;
+    }
 }
-
 @media screen and ( max-width: 1199.98px){
     .container{
         width: 976px;
@@ -25,7 +26,7 @@
         height: 729px;
         width: 650px;
     }
-    .pets__button-right{
+    .pets-button-right{
         margin-right: 10px;
         margin-left: 10px;
     }
@@ -47,10 +48,7 @@
     .box-heading__our-pets{
         height: 12%;
     }
-
-
 }
-
 @media screen and ( max-width: 991.98px) {
     .container {
         width: 750px;
@@ -77,13 +75,13 @@
 
     .h2 {
         font-size: 35px;
-        line-height: 0px;
+        line-height: 0;
     }
 
     .paragraph-l {
         font-size: 12px;
         line-height: 15px;
-        letter-spacing: 0px;
+        letter-spacing: 0;
     }
 
     .h3 {
@@ -117,7 +115,7 @@
         margin-left: 15px;
     }
 
-    .button-primary_m {
+    .box-pets-card-button__button-primary {
         bottom: -70px;
     }
 
@@ -127,11 +125,11 @@
         height: 555px;
     }
 
-    .help-heading__het {
+    .help__heading-het {
         height: 15px;
     }
 
-    .help-heading__text {
+    .help__heading-text {
         font-size: 35px;
     }
 
@@ -156,18 +154,18 @@
         height: 400px;
     }
 
-    .donation-dog {
+    .donation__img-dog {
         width: 380px;
         height: 224px;
     }
 
 
-    .footer-contacts__title {
+    .footer__contacts-title {
         font-size: 35px;
         line-height: 45px
     }
 
-    .footer-location__title {
+    .footer__location-title {
         font-size: 35px;
         line-height: 45px
     }
@@ -190,7 +188,7 @@
     }
 
     .navigation {
-        bottom: 76px;
+        bottom: 47px;
     }
 
     .footer {
@@ -203,7 +201,7 @@
         margin-top: 30px;
     }
 
-    .footer-box__contacts {
+    .box-footer__contacts {
         margin-top: 30px;
     }
 
@@ -280,11 +278,11 @@
         display: none;
     }
 
-    .pets-box-card {
+    .box-pets-card {
         justify-content: center;
     }
 
-    .pets__button-right {
+    .pets-button-right {
         margin-right: 20px;
         margin-top: 49.5px;
     }
@@ -356,20 +354,23 @@
         margin: 0;
     }
 
-    .donation-dog {
+    .donation__img-dog {
         width: 204px;
         height: 152px;
     }
 
-    .donation-information {
+    .donation__information {
         width: 352px;
         height: 282px;
+    }
+    .navigation{
+        bottom: 12px;
     }
 
 
     /*our-pets */
     .section_our-pets {
-        min-height: 4070px;
+        min-height: 4087px;
     }
 
     .box-heading__our-pets {
@@ -385,7 +386,7 @@
         justify-content: center;
     }
 
-    .footer-box__contacts {
+    .box-footer__contacts {
         margin-left: -202px;
     }
 
@@ -399,7 +400,7 @@
         margin-top: 8%;
     }
 
-    .help-heading__text {
+    .help__heading-text {
         font-size: 27px;
     }
 
@@ -529,7 +530,7 @@
         padding: 0;
     }
 
-    .pets__button-right {
+    .pets-button-right {
         margin-right: 11px;
         height: 60px;
         width: 26px;
@@ -547,7 +548,7 @@
         width: 154px;
     }
 
-    .button-primary_m {
+    .box-pets-card-button__button-primary {
         bottom: -11px;
         height: 51px;
         width: 238px;
@@ -626,21 +627,21 @@
 
     .help__sleeping-areas {
         width: 31%;
-        margin: 0px;
+        margin: 0;
         height: 92px;
     }
 
 
-    .donation-content {
+    .donation__content {
         flex-direction: column;
     }
 
-    .donation-dog {
+    .donation__img-dog {
         width: 204px;
         height: 152px;
     }
 
-    .donation-information {
+    .donation__information {
         width: 264px;
         height: 307px;
     }
@@ -667,12 +668,12 @@
         height: 19px;
     }
 
-    .footer-box__contacts {
+    .box-footer__contacts {
         margin-left: 13px;
         justify-content: space-around;
     }
 
-    .footer-contacts__box-title {
+    .box-footer__contacts-title {
         text-align: center;
     }
 
@@ -694,21 +695,22 @@
         justify-content: space-around;
     }
 
-    .footer-location__box-title {
+    .box-footer__location-title {
         text-align: center;
     }
 
-    .footer-location__title_color {
+    .footer__location-title_color {
         font-size: 32px;
         line-height: 42px;
     }
 
-    .footer-location__box-boston {
+    .box-footer__location-boston {
         width: 91%;
         height: 46px;
+
     }
 
-    .footer-location__boston-icon-boston {
+    .footer__location-boston-icon {
         margin-left: 21px
     }
 
@@ -717,7 +719,7 @@
         line-height: 22px;
     }
 
-    .footer-location__box-london {
+    .box-footer__location-london {
         margin-left: 21px;
     }
 
@@ -726,7 +728,7 @@
     }
 
     .footer__puppy {
-        margin-top: 26%;
+        margin-top: 29%;
         width: 267px;
         height: 280px;
 
@@ -746,7 +748,7 @@
     }
 
     .section_our-pets {
-        min-height: 3588px
+        min-height: 3603px
     }
 
     .pets-card {
@@ -774,7 +776,7 @@
         width: 40px;
     }
 
-    .pets__button-right {
+    .pets-button-right {
         height: 50px;
         width: 12px;
         margin: 0;
@@ -794,21 +796,21 @@
     .footer__location{
         width: 269px;
     }
-    .footer-location__box-title{
+    .box-footer__location-title{
         width: 100%;
     }
-    .footer-location__box-london{
+    .box-footer__location-london{
         margin-left: 7px;
         width: 97%;
     }
-    .footer-location__box-boston{
+    .box-footer__location-boston{
         width: 100%;
     }
-    .footer-location__boston-icon-boston{
+    .footer__location-boston-icon{
         margin-left: 7px;
     }
 
-    .footer-location__boston-text{
+    .footer__location-boston-text{
         margin-left: 5px;
     }
 }

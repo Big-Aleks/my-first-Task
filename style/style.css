@@ -461,7 +461,7 @@
     background: rgba(253, 220, 196, 1);
 }
 
-.pets-box-card {
+.box-pets-card {
     width: 990px;
     height: 435px;
     display: flex;
@@ -534,7 +534,7 @@
 
 }
 
-.pets__button-right {
+.pets-button-right {
     height: 52px;
     width: 52px;
     border-radius: 100px;
@@ -547,12 +547,12 @@
     margin-top: 217.5px;
 }
 
-.pets__button-right:hover {
+.pets-button-right:hover {
     cursor: pointer;
     background: rgba(253, 220, 196, 1);
 }
 
-.button-primary_m {
+.box-pets-card-button__button-primary {
     height: 52px;
     width: 261px;
     background-color: rgba(241, 205, 179, 1);
@@ -564,13 +564,13 @@
     margin: 0 auto;
 }
 
-.button-primary_m:hover {
+.box-pets-card-button__button-primary:hover {
     cursor: pointer;
     background-color: rgba(253, 220, 196, 1);
     border-color: rgba(253, 220, 196, 1);
 }
 
-.button_primary-cards__text {
+.button-primary__text {
     font-family: georgia;
     font-size: 17px;
     font-style: normal;
@@ -588,7 +588,7 @@
     align-items: center;
 }
 
-.help-heading__het {
+.help__heading-het {
     width: 100%;
     height: 170px;
     display: flex;
@@ -597,7 +597,7 @@
     justify-content: flex-end;
 }
 
-.help-heading__text {
+.help__heading-text {
     font-family: georgia;
     font-size: 35px;
     font-style: normal;
@@ -751,7 +751,7 @@
     position: relative;
 }
 
-.donation-content {
+.donation__content {
     width: 100%;
     height: 284px;
     display: flex;
@@ -764,12 +764,12 @@
     margin: 0 auto;
 }
 
-.donation-dog {
+.donation__img-dog {
     width: 505px;
     height: 261px;
 }
 
-.donation-information {
+.donation__information {
     width: 380px;
     height: 282px;
 }
@@ -828,9 +828,9 @@
     justify-content: space-between;
 }
 
-.footer-box__contacts {
+.box-footer__contacts {
     width: 278px;
-    height: 234px;
+    height: 230px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -838,12 +838,12 @@
     margin-left: 40px;
 }
 
-.footer-contacts__box-title {
+.box-footer__contacts-title {
     width: 100%;
     height: 90px;
 }
 
-.footer-contacts__title {
+.footer__contacts-title {
     margin: 0;
 }
 
@@ -851,14 +851,15 @@
     color: rgba(255, 255, 255, 1);
 }
 
-.footer-box__contacts-mail {
+.box-footer__contacts-mail {
     width: 100%;
     height: 32px;
     display: flex;
     align-items: center;
+
 }
 
-.footer-contacts__mail-icon-email {
+.footer__contacts-mail-icon-email {
     width: 40px;
     height: 32px;
     background-image: url(../img/footer-contacts/icon-email.png);
@@ -868,23 +869,22 @@
     text-decoration: none;
 }
 
-.footer-contacts__mail-text {
-    margin: 0;
-    margin-left: 65px;
+.footer__contacts-mail-text {
+    margin-left: 17px;
 }
 
 .footer-contacts__mail-text_color {
     color: rgba(241, 205, 179, 1);
 }
 
-.footer-contacts__box-phone {
+.box-footer__contacts-phone {
     width: 100%;
     height: 32px;
     display: flex;
     align-items: center;
 }
 
-.footer-contacts__phone-icon-phone {
+.footer__contacts-phone-icon {
     height: 32px;
     width: 40px;
     background-image: url(../img/footer-contacts/icon-phone.png);
@@ -893,7 +893,7 @@
     display: flex;
 }
 
-.footer-contacts__phone-link {
+.footer__contacts-phone-link {
     text-decoration: none;
     margin-left: 20px;
 }
@@ -911,20 +911,20 @@
     justify-content: space-between;
 }
 
-.footer-location__box-title {
+.box-footer__location-title{
     width: 100%;
     height: 90px;
 }
 
-.footer-location__title {
+.footer__location-title {
     margin: 0;
 }
 
-.footer-location__title_color {
+.footer__location-title_color {
     color: rgba(255, 255, 255, 1);
 }
 
-.footer-location__box-boston {
+.box-footer__location-boston {
     width: 100%;
     height: 46px;
     display: flex;
@@ -932,10 +932,14 @@
     justify-content: space-between;
 }
 
-.footer-location__boston-icon-boston {
+.footer__location-boston-icon {
     height: 32px;
     width: 22px;
     background-image: url(../img/footer__location/icon-marker.png);
+}
+.wrapper-footer__location-boston-text{
+    width: 85%;
+    height: 100%;
 }
 
 .footer-location__box-boston-text {
@@ -943,22 +947,22 @@
     width: 85%;
 }
 
-.footer-location__boston-text {
-    margin: 0;
+.footer__location-boston-text {
+    text-decoration: none
 }
 
 .footer-location__boston-text_color {
     color: rgba(241, 205, 179, 1);
 }
 
-.footer-location__box-london {
+.box-footer__location-london {
     height: 32px;
     width: 302px;
     display: flex;
     align-items: center;
 }
 
-.footer-location__phone-icon-london {
+.footer__location-london-phone-icon {
     height: 32px;
     width: 22px;
     background-image: url(../img/footer__location/icon-marker.png);
@@ -968,8 +972,9 @@
     color: rgba(241, 205, 179, 1);
 }
 
-.footer-location__london-text {
+.footer__location-london-text {
     margin-left: 20px;
+    text-decoration: none
 }
 
 .footer-location__london-text_color {
