@@ -9,18 +9,20 @@
     <script src="https://kit.fontawesome.com/c42e8baf3d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style-text.css">
+    <link rel="stylesheet" href="style/style-adaptive.css">
 </head>
 <body>
 <div class="container">
     <section class="start-screen">
 
-        <header class="header header__flex">
-            <div class="logo logo__shelter">
+        <header class="header start-screen__header">
+            <div class="logo header__logo">
                 <p class="logo__title logo__title_color_shelter">Cozy House</p>
                 <p class="logo__subtitle logo__subtitle_color_shelter">Shelter for pets in Boston</p>
             </div>
-            <nav class="menu">
-                <ul class="menu__header">
+            <nav class="wrapper-menu">
+                <ul class="menu">
                     <li class="menu__item active menu__item_width-1 ">
                         <a href="" class="menu__link menu__link_color_shelter">About the shelter</a></li>
 
@@ -42,19 +44,19 @@
                     <label for="checkbox" class="mobile-menu__btn">
                         <div class="mobile-menu__icon"></div>
                     </label>
-                    <div class="mobile-menu__container">
-                        <ul class="mobile-menu__list">
-                            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">About the shelter</a>
-                            </li>
-                            <li class="mobile-menu__item"><a href="our-pets.html" class="mobile-menu__link">Our pets</a></li>
-                            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Help the shelter</a></li>
-                            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Contacts</a></li>
-                        </ul>
-                    </div>
+
+                    <ul class="mobile-menu__list">
+                        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">About the shelter</a>
+                        </li>
+                        <li class="mobile-menu__item"><a href="our-pets.html" class="mobile-menu__link">Our pets</a>
+                        </li>
+                        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Help the shelter</a></li>
+                        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Contacts</a></li>
+                    </ul>
+
                 </nav>
             </div>
         </header>
-
 
 
         <section class="section-content">
@@ -75,12 +77,11 @@
 
         </section>
     </section>
+
     <main class="main">
-
-
         <section class="about">
 
-            <img src="img/about-pets/about-pets.png" class="about__pets"><!--сменить на img-->
+            <img src="img/about-pets/about-pets.png" class="about__pets">
 
             <div class="about__wrapper">
 
@@ -111,30 +112,30 @@
             </div>
 
             <div class="box-pets-card-button">
-                <button class="pets__button-left">
+                <button class="pets-button-left">
                     <i class="fas fa-long-arrow-alt-left"></i></button>
 
-                <div class="pets__box-card">
+                <div class="pets-box-card">
 
-                    <div class="pets-card"> <!-- article - ? -->
-                        <figure class="pets__katrine"></figure> <!--переделать на img - ? -->
-                        <p class="pets-card-title">Katrine</p>
+                    <div class="pets-card">
+                        <img src="img/pets-card/pets-katrine.png" class="pets-card__katrine">
+                        <p class="pets-card__title">Katrine</p>
                         <button class="pets-card__button button-primary">
                             <p class="pets-card__button-text">Learn more</p></button>
                     </div>
 
-                    <div class="wrapper__pets-jennifer">
+                    <div class="wrapper-pets-jennifer">
                         <div class="pets-card">
-                            <figure class="pets__jennifer"></figure>
-                            <p class="pets-card-title">Jennifer</p>
+                            <img src="img/pets-card/pets-jennifer.png" class="pets-card__jennifer">
+                            <p class="pets-card__title">Jennifer</p>
                             <button class="pets-card__button button-primary">
                                 <p class="pets-card__button-text">Learn more</p></button>
                         </div>
                     </div>
-                    <div class="wrapper_pets-woody">
+                    <div class="wrapper-pets-woody">
                         <div class="pets-card">
-                            <figure class="pets__woody"></figure>
-                            <p class="pets-card-title">Woody</p>
+                            <img src="img/pets-card/pets-woody.png" class="pets-card__woody">
+                            <p class="pets-card__title">Woody</p>
                             <button class="pets-card__button button-primary">
                                 <p class="pets-card__button-text">Learn more</p></button>
                         </div>
@@ -205,7 +206,7 @@
             <div class="footer-box__contacts-mail"> <!-- figure ?-->
                 <a href="#" class="footer-contacts__mail-icon-email">
 
-                    <h4 class="footer-contacts__mail-text h4 footer-contacts__mail-text_color">email@shelter.com</h4>
+                    <p class="footer-contacts__mail-text h4 footer-contacts__mail-text_color">email@shelter.com</p>
                 </a>
             </div>
 
@@ -227,19 +228,19 @@
 
             <div class="footer-location__box-boston">
                 <div class="footer-location__boston-icon-boston"></div><!-- figure ?-->
-               <div class="footer-location__wrapper-boston-text">
-                    <h4 class="footer-location__boston-text h4 footer-location__boston-text_color">1 Central Street,
-                        Boston</h4>
-                    <h4 class="footer-location__boston-text h4 footer-location__boston-text_color">(entrance from the
-                        store)</h4>
+                <div class="footer-location__wrapper-boston-text">
+                    <p class="footer-location__boston-text h4 footer-location__boston-text_color">1 Central Street,
+                        Boston</p>
+                    <p class="footer-location__boston-text h4 footer-location__boston-text_color">(entrance from the
+                        store)</p>
                 </div>
             </div>
 
             <div class="footer-location__box-london">
                 <div class="footer-location__phone-icon-london"><!-- figure-->
                 </div>
-                <h4 class="footer-location__london-text h4 footer-location__london-text_color ">18 South Park,
-                    London </h4></div>
+                <p class="footer-location__london-text h4 footer-location__london-text_color ">18 South Park,
+                    London </p></div>
         </div>
 
         <img src="img/footer/footer-puppy.png" class="footer__puppy">
